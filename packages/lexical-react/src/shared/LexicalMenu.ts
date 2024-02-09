@@ -530,7 +530,6 @@ export function useMenuAnchorRef(
         containerDiv.setAttribute('id', 'typeahead-menu');
         containerDiv.setAttribute('role', 'listbox');
         containerDiv.style.display = 'block';
-        containerDiv.style.position = 'absolute';
         parent.append(containerDiv);
       }
       anchorElementRef.current = containerDiv;
